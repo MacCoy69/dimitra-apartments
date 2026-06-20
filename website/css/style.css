@@ -150,28 +150,28 @@ h1,h2,h3,h4 { font-family: var(--font-display); font-weight: 500; line-height: 1
 .theme-over .btn--ghost { border-color: rgba(255,255,255,.7); }
 .theme-over .btn--ghost:hover { background:#fff; color:var(--color-text); }
 /* Seiten mit dunklem Hero: gescrollter Header = dunkler Hintergrund, helle Schrift bleibt lesbar */
-.site-header.scrolled.theme-over { background: rgba(38,34,29,.92); box-shadow: 0 2px 18px rgba(28,40,46,.28); }
-.site-header.scrolled.theme-over .main-nav a,
-.site-header.scrolled.theme-over .lang-switch,
-.site-header.scrolled.theme-over .lang-switch a,
-.site-header.scrolled.theme-over .logo,
-.site-header.scrolled.theme-over .burger { color:#fff; }
-.site-header.scrolled.theme-over .logo__sub { color:var(--color-primary-light); }
-.site-header.scrolled.theme-over .lang-switch a.active,
-.site-header.scrolled.theme-over .lang-switch a:hover { color:var(--color-primary-light); opacity:1; }
-.site-header.scrolled.theme-over .btn--ghost { border-color:rgba(255,255,255,.7); color:#fff; }
-.site-header.scrolled.theme-over .btn--ghost:hover { background:#fff; color:var(--color-text); }
-.site-header.scrolled.theme-over .main-nav a::after { background:var(--color-primary-light); }
+body.theme-over .site-header.scrolled { background: rgba(38,34,29,.92); box-shadow: 0 2px 18px rgba(28,40,46,.28); }
+body.theme-over .site-header.scrolled .main-nav a,
+body.theme-over .site-header.scrolled .lang-switch,
+body.theme-over .site-header.scrolled .lang-switch a,
+body.theme-over .site-header.scrolled .logo,
+body.theme-over .site-header.scrolled .burger { color:#fff; }
+body.theme-over .site-header.scrolled .logo__sub { color:var(--color-primary-light); }
+body.theme-over .site-header.scrolled .lang-switch a.active,
+body.theme-over .site-header.scrolled .lang-switch a:hover { color:var(--color-primary-light); opacity:1; }
+body.theme-over .site-header.scrolled .btn--ghost { border-color:rgba(255,255,255,.7); color:#fff; }
+body.theme-over .site-header.scrolled .btn--ghost:hover { background:#fff; color:var(--color-text); }
+body.theme-over .site-header.scrolled .main-nav a::after { background:var(--color-primary-light); }
 
 /* Lesbarkeit des transparenten Headers über hellen Hero-Bereichen (oben, nicht gescrollt) */
-.site-header.theme-over:not(.scrolled)::before {
+body.theme-over .site-header:not(.scrolled)::before {
   content:''; position:absolute; inset:0; z-index:-1; pointer-events:none;
   background: linear-gradient(180deg, rgba(28,38,44,.55) 0%, rgba(28,38,44,.18) 55%, rgba(28,38,44,0) 100%);
 }
-.site-header.theme-over:not(.scrolled) .logo,
-.site-header.theme-over:not(.scrolled) .main-nav a,
-.site-header.theme-over:not(.scrolled) .lang-switch,
-.site-header.theme-over:not(.scrolled) .btn--ghost {
+body.theme-over .site-header:not(.scrolled) .logo,
+body.theme-over .site-header:not(.scrolled) .main-nav a,
+body.theme-over .site-header:not(.scrolled) .lang-switch,
+body.theme-over .site-header:not(.scrolled) .btn--ghost {
   text-shadow: 0 1px 14px rgba(16,26,32,.5);
 }
 
