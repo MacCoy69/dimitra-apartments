@@ -1,0 +1,17 @@
+# Netlify-Konfiguration – Dimitra Beach Apartments
+# Die Website liegt im Unterordner /website (kein Build-Step nötig, statisches HTML).
+
+[build]
+  publish = "website"
+
+# Sicherheits- & Cache-Header (optional, sinnvoll für statische Seiten)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
