@@ -72,6 +72,13 @@
     <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0M16 5a3 3 0 0 1 0 6M21 20a6 6 0 0 0-4-5.6"/></symbol>
     <symbol id="i-ferry" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18c1.5 0 1.5 1 3 1s1.5-1 3-1 1.5 1 3 1 1.5-1 3-1M5 14l1-4h12l1 4M9 10V6h6v4M12 4v2"/></symbol>
     <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4 4 14l-2-.5L4 10 2 8l2-.5L10 4ZM3 21h18"/><path d="M10 4a2 2 0 0 1 3-.5L21 11l-3 2-5-3-3 6-2-.5 1-7Z"/></symbol>
+    <!-- Verspielte Doodle-Linien -->
+    <symbol id="d-squiggle" viewBox="0 0 90 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7q7-8 14 0t14 0t14 0t14 0t14 0"/></symbol>
+    <symbol id="d-sun" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="32" cy="32" r="11"/><path d="M32 6v7M32 51v7M6 32h7M51 32h7M13 13l5 5M46 46l5 5M51 13l-5 5M18 46l-5 5"/></symbol>
+    <symbol id="d-wave" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 14q8-8 16 0t16 0t16 0t16 0M4 28q8-8 16 0t16 0t16 0t16 0"/></symbol>
+    <symbol id="d-fish" viewBox="0 0 64 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 24c8-12 26-14 38-6 4 3 8 3 14-2-2 8-2 12 0 16-6-5-10-5-14-2-12 8-30 6-38-6Z"/><circle cx="20" cy="22" r="1.6" fill="currentColor"/></symbol>
+    <symbol id="d-olive" viewBox="0 0 48 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 60V14M24 30c-2-7-9-9-15-9 0 7 6 11 15 11ZM24 24c2-8 9-10 16-10 0 8-7 12-16 12ZM24 44c-2-6-8-8-13-8 0 6 5 9 13 9Z"/></symbol>
+    <symbol id="d-boat" viewBox="0 0 64 56" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 18 34h14zM32 6l14 28H32zM10 40h44l-7 9H17zM4 52q7-6 14 0t14 0t14 0t14 0"/></symbol>
   </svg>
 
   <!-- Header -->
@@ -129,11 +136,14 @@
 
     <!-- Auswahl Thassos / Festland -->
     <section id="auswahl" class="section" aria-labelledby="auswahl-heading">
+      <svg class="deco deco--tr deco--float" aria-hidden="true"><use href="#d-sun"/></svg>
+      <svg class="deco deco--bl deco--float alt" aria-hidden="true"><use href="#d-fish"/></svg>
       <div class="container">
         <div class="section-head center reveal">
           <span class="eyebrow">Ihr Reiseziel</span>
           <h2 id="auswahl-heading" class="section-title">Wohin zieht es Sie?</h2>
-          <p class="lead">Ob Inselruhe auf Thassos oder die Weite des Festlands – beide Häuser liegen direkt am Wasser. Wählen Sie Ihre Küste.</p>
+          <svg class="doodle-rule" width="90" height="12" aria-hidden="true"><use href="#d-squiggle"/></svg>
+          <p class="lead">Zwei Küsten, ein Versprechen: das Meer direkt vor der Tür. Folgen Sie dem Pinienduft auf die Insel Thassos – oder bleiben Sie am Festland, wo die Wellen die Terrasse streifen.</p>
         </div>
 
         <div class="choice-grid">
@@ -176,29 +186,65 @@
 
     <!-- Welcome / editorial -->
     <section class="section section--alt" aria-labelledby="welcome-heading">
+      <svg class="deco deco--tr deco--float" aria-hidden="true" style="width:clamp(40px,5vw,64px)"><use href="#d-olive"/></svg>
       <div class="container">
         <div class="editorial">
-          <div class="editorial__media reveal">
+          <div class="editorial__media collage reveal">
             <img src="img/apartment-wohnzimmer-01.webp" alt="Wohnbereich mit naturbelassenen Materialien, Rattan und sandfarbenen Tönen in einem Dimitra Apartment" loading="lazy" width="600" height="750">
+            <span class="editorial__inset"><img src="img/apartment-terrasse-01.webp" alt="Private Terrasse im Grünen" loading="lazy"></span>
             <span class="stamp">seit<br>Familienhand</span>
           </div>
           <div class="editorial__body reveal d1">
             <span class="eyebrow">Willkommen</span>
             <h2 id="welcome-heading">Ein Zuhause am Meer – mit griechischer Seele</h2>
-            <p>Dimitra Beach Apartments sind familiengeführte Ferienwohnungen für Menschen, die das Echte suchen: warme Erdtöne, naturbelassene Materialien und das Meer immer in Sichtweite. Kein anonymes Hotel, sondern ein Ort zum Ankommen.</p>
-            <p>Jedes Apartment ist voll ausgestattet – mit eigener Küche, privater Terrasse und allem, was einen entspannten Aufenthalt ausmacht. Sie wählen nur noch die Küste.</p>
+            <svg class="doodle-rule" width="90" height="12" aria-hidden="true" style="margin-top:.4rem;color:var(--color-secondary)"><use href="#d-squiggle"/></svg>
+            <p style="margin-top:1.2rem;">Bei uns wird nicht eingecheckt – man kommt an. Dimitra Beach Apartments sind familiengeführt, mit warmen Erdtönen, naturbelassenen Materialien und dem Meer immer in Sichtweite. Echt, herzlich, ungekünstelt.</p>
+            <p>Jedes Apartment ist voll ausgestattet – eigene Küche, private Terrasse, alles für unbeschwerte Tage. Den Rest übernimmt die Ägäis. Sie wählen nur noch die Küste.</p>
             <p class="signature">Ihre Familie Dimitra</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Urlaubsmomente -->
+    <section class="section" aria-labelledby="momente-heading">
+      <svg class="deco deco--bl deco--float" aria-hidden="true" style="width:clamp(46px,6vw,78px)"><use href="#d-wave"/></svg>
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Urlaubsmomente</span>
+          <h2 id="momente-heading" class="section-title">Tage, die nach Sommer schmecken</h2>
+          <svg class="doodle-rule" width="90" height="12" aria-hidden="true"><use href="#d-squiggle"/></svg>
+        </div>
+        <div class="moments-grid">
+          <article class="moment reveal">
+            <div class="round-media"><img src="img/apartment-terrasse-04.webp" alt="Sonnige Terrasse am Morgen mit Blick ins Grüne" loading="lazy"></div>
+            <span class="script">am Morgen</span>
+            <h3>Der erste Kaffee</h3>
+            <p>Barfuß auf die Terrasse, die Sonne noch weich – der Tag gehört ganz Ihnen.</p>
+          </article>
+          <article class="moment reveal d1">
+            <div class="round-media"><img src="img/penthouse-terrasse-03.webp" alt="Liegen mit Meerblick am Nachmittag" loading="lazy"></div>
+            <span class="script">am Nachmittag</span>
+            <h3>Einfach treiben</h3>
+            <p>Vom Golden Beach zurück, ein Buch, das Rauschen der Ägäis. Mehr braucht es nicht.</p>
+          </article>
+          <article class="moment reveal d2">
+            <div class="round-media"><img src="img/penthouse-ausblick-01.webp" alt="Sonnenuntergang über dem Meer am Abend" loading="lazy"></div>
+            <span class="script">am Abend</span>
+            <h3>Goldene Stunde</h3>
+            <p>Wenn die Sonne ins Meer sinkt und der Himmel Farbe bekennt – jeden Abend neu.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- Ausstattung -->
-    <section id="ausstattung" class="section" aria-labelledby="ausstattung-heading">
+    <section id="ausstattung" class="section section--alt" aria-labelledby="ausstattung-heading">
       <div class="container">
         <div class="section-head center reveal">
           <span class="eyebrow">Ausstattung</span>
           <h2 id="ausstattung-heading" class="section-title">Alles da. Einfach ankommen.</h2>
+          <svg class="doodle-rule" width="90" height="12" aria-hidden="true"><use href="#d-squiggle"/></svg>
           <p class="lead">Was beide Häuser gemeinsam haben – damit Sie sich um nichts kümmern müssen.</p>
         </div>
         <div class="amen-grid">
@@ -213,7 +259,7 @@
     </section>
 
     <!-- Galerie -->
-    <section class="section section--alt" aria-labelledby="galerie-heading">
+    <section class="section" aria-labelledby="galerie-heading">
       <div class="container">
         <div class="section-head reveal">
           <span class="eyebrow">Einblicke</span>
@@ -233,7 +279,7 @@
     </section>
 
     <!-- Lage -->
-    <section id="lage" class="section" aria-labelledby="lage-heading">
+    <section id="lage" class="section section--alt" aria-labelledby="lage-heading">
       <div class="container">
         <div class="loc-grid">
           <div class="reveal">

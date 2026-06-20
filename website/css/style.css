@@ -40,8 +40,9 @@
   /* Maße */
   --maxw: 1240px;
   --gutter: clamp(1.25rem, 4vw, 3rem);
-  --radius: 4px;
-  --radius-lg: 10px;
+  --radius: 8px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
   --shadow-sm: 0 2px 10px rgba(52,48,42,.06);
   --shadow-md: 0 14px 40px rgba(52,48,42,.12);
   --shadow-lg: 0 30px 70px rgba(28,46,52,.22);
@@ -385,4 +386,57 @@ section { position:relative; }
   .tick-list, .amen-grid { grid-template-columns:1fr; }
   .footer-grid { grid-template-columns:1fr; }
   body { font-size:16px; }
+}
+
+/* =========================================================
+   Playful Refresh — dezente Urlaubs-Akzente (ekies-inspiriert)
+   ========================================================= */
+
+/* Doodle-Linien-Akzente */
+.doodle { color: var(--color-primary-light); opacity:.55; pointer-events:none; }
+.doodle--soft { color: var(--color-secondary); opacity:.5; }
+.section-head .doodle-rule { display:block; margin:.9rem auto 0; color:var(--color-primary); opacity:.85; }
+.section-head:not(.center) .doodle-rule { margin-left:0; }
+
+/* dekorative, frei positionierte Doodles */
+.deco { position:absolute; z-index:0; pointer-events:none; }
+.deco--tr { top: clamp(1.5rem,5vw,3rem); right: clamp(1rem,5vw,4rem); width:clamp(48px,7vw,84px); }
+.deco--bl { bottom: clamp(1.5rem,5vw,3rem); left: clamp(1rem,5vw,4rem); width:clamp(48px,7vw,84px); }
+.deco--float { animation: floaty 7s ease-in-out infinite; }
+.deco--float.alt { animation-duration: 9s; animation-delay:-3s; }
+@keyframes floaty { 0%,100%{ transform: translateY(0) rotate(0deg);} 50%{ transform: translateY(-12px) rotate(4deg);} }
+.section > .container { position:relative; z-index:1; }
+
+/* Runde / organische Bildausschnitte */
+.round-media { border-radius: 50%; overflow:hidden; aspect-ratio:1; box-shadow: var(--shadow-md); }
+.round-media img { width:100%; height:100%; object-fit:cover; }
+.blob { border-radius: 64% 36% 57% 43% / 43% 47% 53% 57%; overflow:hidden; }
+
+/* Editorial: Collage mit rundem Inset */
+.editorial__media.collage { position:relative; }
+.editorial__media.collage > img { border-radius: var(--radius-xl); }
+.editorial__inset {
+  position:absolute; bottom:-30px; left:-34px; width: clamp(120px, 22%, 168px); aspect-ratio:1;
+  border-radius:50%; overflow:hidden; border:6px solid var(--color-bg); box-shadow: var(--shadow-md);
+}
+.editorial__inset img { width:100%; height:100%; object-fit:cover; }
+@media (max-width:600px){ .editorial__inset{ left:auto; right:-10px; bottom:-22px; width:104px; } }
+
+/* Momente-Trio (runde Fotos + verspielte Captions) */
+.moments-grid { display:grid; grid-template-columns:repeat(3,1fr); gap: clamp(1.4rem,4vw,3rem); }
+.moment { text-align:center; }
+.moment .round-media { margin:0 auto 1.2rem; max-width: 280px; transition: transform .6s var(--ease); }
+.moment:hover .round-media { transform: translateY(-8px); }
+.moment h3 { font-size:1.5rem; margin-bottom:.3rem; }
+.moment .script { font-size:1.45rem; display:block; margin-bottom:.5rem; }
+.moment p { color:var(--color-text-light); font-size:.95rem; max-width:30ch; margin:0 auto; }
+@media (max-width:760px){ .moments-grid{ grid-template-columns:1fr; gap:2.5rem; } .moment .round-media{ max-width:240px; } }
+
+/* Sanfter Wellen-Übergang zwischen Sektionen */
+.wave-sep { display:block; width:100%; height: clamp(40px,6vw,80px); color: var(--color-bg-alt); margin-bottom:-1px; }
+.wave-sep.flip { transform: scaleY(-1); }
+.wave-sep path { fill: currentColor; }
+
+@media (prefers-reduced-motion: reduce) {
+  .deco--float { animation: none; }
 }
