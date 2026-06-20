@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Stray skill copy (nicht Teil des Projekts)
+wunderwald-webdev/
+wunderwald-webdev.zip
+
+# Editor
+.vscode/
+.idea/
