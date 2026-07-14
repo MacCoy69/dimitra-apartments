@@ -10,3 +10,6 @@ wunderwald-webdev.zip
 # Editor
 .vscode/
 .idea/
+
+# Temporäre Render-/Vorschau-Dateien
+website/*.png
