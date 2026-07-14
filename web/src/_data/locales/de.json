@@ -93,7 +93,7 @@
   "thassos": {
     "title": "Thassos – Ferienwohnungen in Skala Potamias | Dimitra Beach Apartments",
     "description": "Dimitra Beach Apartments auf Thassos: 3 Apartments & ein Penthouse in Skala Potamias, nur 700 m zum Golden Beach. Meerblick, eigene Küche, Terrasse. Jetzt anfragen.",
-    "hero": { "alt": "Terrasse mit Meerblick über Skala Potamias auf Thassos", "crumb": "Start", "eyebrow": "Insel · Skala Potamias", "scriptSub": "die grüne Insel der Ägäis", "sub": "Drei Apartments und ein Penthouse, eingebettet ins Grün von Skala Potamias – und nur 700 m bis zum berühmten Golden Beach." },
+    "hero": { "h1": "Thassos", "alt": "Terrasse mit Meerblick über Skala Potamias auf Thassos", "crumb": "Start", "eyebrow": "Insel · Skala Potamias", "scriptSub": "die grüne Insel der Ägäis", "sub": "Drei Apartments und ein Penthouse, eingebettet ins Grün von Skala Potamias – und nur 700 m bis zum berühmten Golden Beach." },
     "intro": { "eyebrow": "Skala Potamias", "title": "Insel-Ruhe, Strand vor der Tür", "lead": "Pinienwälder, kristallklares Wasser, das entspannte Tempo der Insel. Morgens ein Sprung ins Meer, mittags Schatten unter Oliven, abends Tavernen am Hafen. Unsere Apartments liegen ruhig und doch mittendrin – Sie wählen die Größe, den Rest übernimmt Thassos." },
     "units": {
       "eyebrow": "Unsere Unterkünfte", "title": "3 Apartments & 1 Penthouse",

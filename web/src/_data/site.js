@@ -1,7 +1,7 @@
 module.exports = {
   name: "Dimitra Beach Apartments",
   url: "https://www.dimitra-apartments.gr",
-  languages: ["de", "en"],
+  languages: ["de", "en", "el"],
   defaultLang: "de",
   // Reihenfolge & Slugs der Seiten (für Sitemap & Sprachumschalter)
   pages: [
@@ -11,6 +11,6 @@ module.exports = {
     { key: "impressum", slug: "impressum" },
     { key: "datenschutz", slug: "datenschutz" },
   ],
-  langNames: { de: "Deutsch", en: "English" },
-  langShort: { de: "DE", en: "EN" },
+  langNames: { de: "Deutsch", en: "English", el: "Ελληνικά" },
+  langShort: { de: "DE", en: "EN", el: "EL" },
 };

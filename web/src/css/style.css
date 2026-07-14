@@ -469,6 +469,11 @@ section { position:relative; }
 .choice-circle p { color:var(--color-text-light); max-width:34ch; margin:0 auto 1.4rem; }
 @media (max-width:760px){ .choice-circles { grid-template-columns:1fr; gap:2.6rem; } .choice-circle .round-media{ max-width:250px; } }
 
+/* Griechisch (el): Schriften mit griechischer Zeichenabdeckung */
+html[lang="el"] { --font-display: "EB Garamond", "Cormorant Garamond", serif; --font-body: "Mulish", "Jost", sans-serif; }
+html[lang="el"] .script { font-family: "EB Garamond", serif; font-style: italic; }
+html[lang="el"] .logo__word { letter-spacing: .12em; }
+
 /* Rechtsseiten (Impressum / Datenschutz) */
 .legal { max-width:760px; }
 .legal h2 { font-size:1.6rem; margin:2rem 0 .6rem; }
