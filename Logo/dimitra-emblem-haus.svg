@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Dimitra Beach Apartments – Strandhaus-Emblem">
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#2D8AA8" stroke-width="2.4"/>
+  <g fill="none" stroke="#2D8AA8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="52,60 67,45 82,60"/>
+    <path d="M55 60 V85 H79 V60"/>
+    <path d="M63 85 V73 H71 V85"/>
+    <path d="M41 85 Q37 68 44 53"/>
+    <path d="M44 53 Q31 49 25 56"/>
+    <path d="M44 53 Q36 43 26 44"/>
+    <path d="M44 53 Q44 45 42 39"/>
+    <path d="M44 53 Q51 46 58 49"/>
+    <path d="M44 53 Q50 52 56 58"/>
+    <path d="M32 95 q9 -7 18 0 t18 0 t18 0" stroke-width="2.6"/>
+  </g>
+  <circle cx="44" cy="55" r="1.8" fill="#2D8AA8"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-label="Dimitra Beach Apartments – Konzept 2 (Siegel)">
+  <defs><style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Sacramento&amp;display=swap');
+    .arc { font-family:'Cormorant Garamond',serif; font-weight:600; font-size:27px; letter-spacing:7px; fill:#33302B; }
+    .sub { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:13px; letter-spacing:7px; fill:#2D8AA8; }
+  </style></defs>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#2D8AA8" stroke-width="2"/>
+  <circle cx="150" cy="150" r="131" fill="none" stroke="#2D8AA8" stroke-width="1"/>
+  <path id="topArc" d="M44,150 A106,106 0 0 1 256,150" fill="none"/>
+  <text class="arc"><textPath href="#topArc" startOffset="50%" text-anchor="middle">DIMITRA BEACH</textPath></text>
+  <!-- Emblem -->
+  <g transform="translate(150,138)">
+    <circle cx="0" cy="0" r="13" fill="#2D8AA8"/>
+    <path d="M-32 26 q16 -12 32 0 t32 0" fill="none" stroke="#2D8AA8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-32 38 q16 -12 32 0 t32 0" fill="none" stroke="#2D8AA8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text class="sub" x="150" y="212" text-anchor="middle">· APARTMENTS ·</text>
+  <line x1="150" y1="226" x2="150" y2="226" stroke="#2D8AA8"/>
+  <text x="150" y="240" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="11" letter-spacing="4" fill="#897E6E">THASSOS · FESTLAND</text>
+</svg>

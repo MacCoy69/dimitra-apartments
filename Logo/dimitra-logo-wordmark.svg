@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="130" viewBox="0 0 360 130" role="img" aria-label="Dimitra Beach Apartments">
+  <defs><style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&amp;family=Sacramento&amp;display=swap');
+  .w{font-family:'Cormorant Garamond',serif;font-weight:600;fill:#33302B;font-size:37px;letter-spacing:5px}
+  .s{font-family:'Sacramento',cursive;fill:#2D8AA8;font-size:42px}</style></defs>
+  <text class="w" x="182" y="58" text-anchor="middle">DIMITRA BEACH</text>
+  <text class="s" x="180" y="104" text-anchor="middle">Apartments</text>
+</svg>

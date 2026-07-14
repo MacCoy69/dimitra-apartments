@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Dimitra Beach Apartments – Emblem (Pinie, Haus, Welle)">
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#2D8AA8" stroke-width="2.2"/>
+  <g fill="none" stroke="#2D8AA8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47 90 Q42 74 39 60 Q38 56 40 53"/>
+    <path d="M39 60 Q34 57 31 56"/>
+    <path d="M40 55 Q44 53 48 52"/>
+    <path d="M25 54 Q24 46 32 45 Q33 39 41 41 Q45 36 51 40 Q58 40 57 47 Q60 51 53 54 Q40 52 25 54 Z"/>
+    <polyline points="46,73 60,61 74,73"/>
+    <path d="M50 73 V87 H70 V73"/>
+    <path d="M66 66 V59 H69 V63"/>
+    <path d="M56 77 H64 V85 H56 Z"/>
+    <path d="M60 77 V85"/>
+    <path d="M56 81 H64"/>
+    <path d="M28 89 Q40 84 53 87 Q66 90 82 85"/>
+    <path d="M72 76 q3.5 -3 7 0 t7 0" stroke-width="2.2"/>
+    <path d="M72 80 q3.5 -3 7 0 t7 0" stroke-width="2.2"/>
+  </g>
+  <circle cx="22" cy="60" r="1.7" fill="#2D8AA8"/>
+  <circle cx="88" cy="62" r="1.7" fill="#2D8AA8"/>
+</svg>

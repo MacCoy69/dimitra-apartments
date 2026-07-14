@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="150" viewBox="0 0 470 150" role="img" aria-label="Dimitra Beach Apartments – Konzept 3 (Monogramm horizontal)">
+  <defs><style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Sacramento&amp;display=swap');
+    .w { font-family:'Cormorant Garamond',serif; font-weight:600; fill:#33302B; font-size:37px; letter-spacing:5px; }
+    .s { font-family:'Sacramento',cursive; fill:#2D8AA8; font-size:40px; }
+  </style></defs>
+  <!-- Emblem im Kreis -->
+  <circle cx="72" cy="75" r="52" fill="none" stroke="#2D8AA8" stroke-width="2"/>
+  <g transform="translate(72,66)">
+    <circle cx="0" cy="0" r="10" fill="#2D8AA8"/>
+    <path d="M-26 22 q13 -10 26 0 t26 0" fill="none" stroke="#2D8AA8" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M-26 32 q13 -10 26 0 t26 0" fill="none" stroke="#2D8AA8" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+  <text class="w" x="150" y="68">DIMITRA BEACH</text>
+  <text class="s" x="152" y="112">Apartments</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Dimitra Beach Apartments – Emblem (Beachhaus mit Pinie)">
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#2D8AA8" stroke-width="2.4"/>
+  <g fill="none" stroke="#2D8AA8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="28,53 60,32 92,53"/>
+    <path d="M33 53 V84"/>
+    <path d="M87 53 V84"/>
+    <path d="M33 84 H87"/>
+    <path d="M60 84 V55"/>
+    <path d="M48 56 Q48 50 53 49 Q54 45 58 46 Q60 43 62 46 Q66 45 67 49 Q72 50 72 56 Q60 54 48 56 Z"/>
+    <circle cx="43" cy="50" r="2.8"/>
+    <g stroke-width="1.9">
+      <path d="M43 45.2 V43.5"/>
+      <path d="M38.2 50 H36.5"/>
+      <path d="M39.6 46.6 L38.4 45.4"/>
+      <path d="M39.6 53.4 L38.4 54.6"/>
+    </g>
+    <path d="M40 94 q10 -5 20 0 t20 0" stroke-width="2.6"/>
+  </g>
+</svg>

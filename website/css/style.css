@@ -120,11 +120,18 @@ h1,h2,h3,h4 { font-family: var(--font-display); font-weight: 500; line-height: 1
 .site-header.scrolled { background: rgba(251,247,240,.92); backdrop-filter: blur(12px); box-shadow: var(--shadow-sm); padding:.5rem 0; }
 
 /* Logo (Text) */
-.logo { display:flex; flex-direction:column; line-height:1; gap:.12rem; color:var(--color-text); }
+.logo { display:flex; flex-direction:row; align-items:center; gap:.7rem; color:var(--color-text); }
+.logo__text { display:flex; flex-direction:column; line-height:1; gap:.1rem; }
 .logo__row { display:flex; align-items:center; gap:.5rem; }
 .logo__word { font-family: var(--font-display); font-weight:600; font-size:1.32rem; letter-spacing:.18em; }
 .logo__sub  { font-family: var(--font-script); font-size:1.45rem; color:var(--color-primary); margin-top:-.35rem; align-self:flex-start; }
 .logo__mark { width:22px; height:22px; flex:none; }
+/* Icon-Bild im Logo */
+.logo__icon { height:48px; width:auto; flex:none; display:block; transition:height .4s var(--ease); }
+.site-header.scrolled .logo__icon { height:42px; }
+.footer-logo .logo__icon { height:52px; }
+.footer-logo .logo { margin-bottom:.6rem; }
+@media (max-width:760px){ .logo__icon, .site-header.scrolled .logo__icon { height:40px; } }
 .site-header:not(.scrolled) .home-hero-context .logo,
 .theme-over .logo { color:#fff; }
 .theme-over .logo__sub { color:#fff; }

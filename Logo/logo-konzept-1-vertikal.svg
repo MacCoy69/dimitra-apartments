@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280" role="img" aria-label="Dimitra Beach Apartments – Konzept 1 (vertikal)">
+  <defs><style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Sacramento&amp;display=swap');
+    .w { font-family:'Cormorant Garamond',serif; font-weight:600; fill:#33302B; font-size:40px; letter-spacing:8px; }
+    .s { font-family:'Sacramento',cursive; fill:#2D8AA8; font-size:48px; }
+    .t { font-family:'Cormorant Garamond',serif; font-weight:500; fill:#897E6E; font-size:13px; letter-spacing:6px; }
+  </style></defs>
+  <g transform="translate(200,48)">
+    <circle cx="0" cy="0" r="9" fill="#2D8AA8"/>
+    <path d="M-24 20 q12 -9 24 0 t24 0" fill="none" stroke="#2D8AA8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-24 30 q12 -9 24 0 t24 0" fill="none" stroke="#2D8AA8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text class="w" x="204" y="150" text-anchor="middle">DIMITRA BEACH</text>
+  <text class="s" x="200" y="205" text-anchor="middle">Apartments</text>
+  <line x1="96" y1="234" x2="152" y2="234" stroke="#D9CDBA" stroke-width="1"/>
+  <line x1="248" y1="234" x2="304" y2="234" stroke="#D9CDBA" stroke-width="1"/>
+  <text class="t" x="200" y="239" text-anchor="middle">GRIECHENLAND</text>
+</svg>
