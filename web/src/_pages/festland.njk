@@ -1,0 +1,97 @@
+---
+pagination:
+  data: site.languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/festland/index.html"
+layout: base.njk
+pageKey: festland
+slug: festland
+theme: over
+---
+{%- set L = i18n[lang] -%}
+{%- set F = L.festland -%}
+
+<section class="page-hero placeholder-hero" aria-labelledby="fl-heading">
+  <div class="container">
+    <div class="page-hero__inner">
+      <p class="breadcrumb reveal"><a href="/{{ lang }}/">{{ F.hero.crumb }}</a> &nbsp;/&nbsp; {{ L.nav.festland }}</p>
+      <span class="eyebrow reveal" style="color:rgba(255,255,255,.92)">{{ F.hero.eyebrow }}</span>
+      <h1 id="fl-heading" class="reveal d1">{{ F.hero.title }}<span class="script" style="color:#fff;display:block;font-size:.6em;">{{ F.hero.scriptSub }}</span></h1>
+      <p class="reveal d2">{{ F.hero.sub }}</p>
+      <span class="photo-note reveal d3"><svg width="15" height="15"><use href="#i-camera"/></svg> {{ F.hero.photoNote }}</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="fl-intro">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">{{ F.intro.eyebrow }}</span>
+      <h2 id="fl-intro" class="section-title">{{ F.intro.title }}</h2>
+      <svg class="doodle-rule" width="90" height="12" aria-hidden="true"><use href="#d-squiggle"/></svg>
+      <p class="lead">{{ F.intro.lead }}</p>
+    </div>
+  </div>
+</section>
+
+<section id="vorteile" class="section section--alt" aria-labelledby="fl-vorteile">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">{{ F.vorteile.eyebrow }}</span><h2 id="fl-vorteile" class="section-title">{{ F.vorteile.title }}</h2></div>
+    {%- set vIcons = ['i-sea','i-ferry','i-plane'] -%}
+    <div class="amen-grid">
+      {%- for v in F.vorteile.items %}
+      <div class="amenity reveal {{ 'd' + loop.index0 if loop.index0 }}"><div class="amenity__icon"><svg><use href="#{{ vIcons[loop.index0] }}"/></svg></div><h3>{{ v.title }}</h3><p>{{ v.text }}</p></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="fl-units">
+  <div class="container">
+    <div class="section-head center reveal"><span class="eyebrow">{{ F.units.eyebrow }}</span><h2 id="fl-units" class="section-title">{{ F.units.title }}</h2><p class="lead">{{ F.units.lead }}</p></div>
+    <div class="choice-grid">
+      {%- for card in F.units.cards %}
+      <article class="choice-card placeholder-hero reveal {{ 'd1' if loop.index0 }}" style="min-height:340px;">
+        <div class="choice-card__body">
+          <span class="choice-card__tag"><svg width="16" height="16"><use href="#i-camera"/></svg> {{ card.tag }}</span>
+          <h3 style="font-size:1.9rem;">{{ card.title }}</h3>
+          <p>{{ card.text }}</p>
+          <a href="/{{ lang }}/#kontakt" class="btn btn--light">{{ card.cta }}</a>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="lage" class="section section--alt" aria-labelledby="fl-lage">
+  <div class="container">
+    <div class="loc-grid">
+      <div class="reveal">
+        <span class="eyebrow">{{ F.lage.eyebrow }}</span>
+        <h2 id="fl-lage" class="section-title" style="margin:1rem 0 .6rem;">{{ F.lage.title }}</h2>
+        <p class="lead">{{ F.lage.lead }}</p>
+        {%- set dIcons = ['i-sea','i-pin','i-plane','i-ferry'] -%}
+        <ul class="dist-list">
+          {%- for d in F.lage.dist %}
+          <li><span class="place"><svg><use href="#{{ dIcons[loop.index0] }}"/></svg> {{ d.label }}</span><span class="km">{{ d.val }}</span></li>
+          {%- endfor %}
+        </ul>
+        <p style="font-size:.82rem;color:var(--color-text-light);margin-top:1rem;">{{ F.lage.note }}</p>
+        <a href="/{{ lang }}/#kontakt" class="btn btn--primary" style="margin-top:1.2rem;">{{ F.lage.cta }}</a>
+      </div>
+      <div class="map-card reveal d1">
+        <iframe title="{{ F.lage.mapTitle }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=24.50%2C40.90%2C24.60%2C40.97&amp;layer=mapnik&amp;marker=40.935%2C24.545"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep" aria-labelledby="fl-cta">
+  <div class="container" style="text-align:center;max-width:680px;">
+    <h2 id="fl-cta" class="section-title reveal" style="color:#fff;">{{ F.cta.title }}</h2>
+    <p class="lead reveal d1" style="margin:1rem auto 2rem;">{{ F.cta.lead }}</p>
+    <div class="reveal d2"><a href="/{{ lang }}/#kontakt" class="btn btn--primary">{{ F.cta.btn }}</a></div>
+  </div>
+</section>

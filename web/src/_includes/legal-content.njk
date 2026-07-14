@@ -1,0 +1,12 @@
+{%- set P = i18n[lang][pageKey] -%}
+<section class="section" style="padding-top:8rem;">
+  <div class="container legal">
+    <span class="eyebrow">{{ P.kicker }}</span>
+    <h1 class="section-title" style="margin:.6rem 0 1.4rem;">{{ P.title }}</h1>
+    <p class="note"><strong>{{ P.noteLabel }}</strong> {{ P.note }}</p>
+    {%- for s in P.sections %}
+    <h2>{{ s.h }}</h2>
+    {%- for line in s.p %}<p>{{ line }}</p>{% endfor %}
+    {%- endfor %}
+  </div>
+</section>

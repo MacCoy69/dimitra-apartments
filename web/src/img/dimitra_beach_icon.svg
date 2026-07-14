@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Dimitra Beach Apartments Icon</title>
+  <desc id="desc">White circular house and olive tree icon with blue waves on a transparent background.</desc>
+
+  <!-- Transparent background -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Double circle -->
+    <circle cx="500" cy="500" r="430" stroke="#FFFFFF" stroke-width="20"/>
+    <circle cx="500" cy="500" r="400" stroke="#FFFFFF" stroke-width="10"/>
+
+    <!-- House outline -->
+    <path d="M250 470
+             L500 220
+             L665 385
+             L665 300
+             L735 300
+             L735 455
+             L820 540"
+          stroke="#FFFFFF" stroke-width="24"/>
+    <path d="M250 470 L185 530 L245 585 L245 760"
+          stroke="#FFFFFF" stroke-width="24"/>
+
+    <!-- Olive tree trunk -->
+    <path d="M455 770
+             C440 710 455 650 485 600
+             C515 550 520 500 500 445
+             C555 485 575 535 560 585
+             C545 635 565 690 610 770 Z"
+          fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8"/>
+
+    <!-- Main branches -->
+    <path d="M505 575 C450 525 400 490 350 460" stroke="#FFFFFF" stroke-width="16"/>
+    <path d="M520 565 C470 505 455 455 460 405" stroke="#FFFFFF" stroke-width="14"/>
+    <path d="M530 560 C565 500 610 460 670 430" stroke="#FFFFFF" stroke-width="16"/>
+    <path d="M520 520 C535 450 530 395 510 345" stroke="#FFFFFF" stroke-width="13"/>
+    <path d="M490 540 C425 520 370 520 315 535" stroke="#FFFFFF" stroke-width="13"/>
+    <path d="M545 535 C610 520 675 535 735 570" stroke="#FFFFFF" stroke-width="13"/>
+    <path d="M475 500 C420 455 385 415 365 370" stroke="#FFFFFF" stroke-width="11"/>
+    <path d="M550 505 C600 465 650 420 690 365" stroke="#FFFFFF" stroke-width="11"/>
+  </g>
+
+  <!-- Olive leaves -->
+  <g fill="#FFFFFF">
+    <!-- left crown -->
+    <ellipse cx="330" cy="445" rx="13" ry="30" transform="rotate(-55 330 445)"/>
+    <ellipse cx="365" cy="420" rx="12" ry="28" transform="rotate(-35 365 420)"/>
+    <ellipse cx="400" cy="395" rx="12" ry="27" transform="rotate(-25 400 395)"/>
+    <ellipse cx="300" cy="495" rx="13" ry="30" transform="rotate(-70 300 495)"/>
+    <ellipse cx="350" cy="500" rx="13" ry="30" transform="rotate(-65 350 500)"/>
+    <ellipse cx="390" cy="480" rx="12" ry="28" transform="rotate(-50 390 480)"/>
+    <ellipse cx="320" cy="555" rx="13" ry="30" transform="rotate(-85 320 555)"/>
+    <ellipse cx="375" cy="555" rx="13" ry="30" transform="rotate(-75 375 555)"/>
+    <ellipse cx="415" cy="530" rx="12" ry="28" transform="rotate(-60 415 530)"/>
+    <ellipse cx="355" cy="360" rx="12" ry="28" transform="rotate(-25 355 360)"/>
+    <ellipse cx="405" cy="340" rx="12" ry="28" transform="rotate(-10 405 340)"/>
+
+    <!-- top crown -->
+    <ellipse cx="455" cy="375" rx="12" ry="29" transform="rotate(-5 455 375)"/>
+    <ellipse cx="500" cy="330" rx="12" ry="30"/>
+    <ellipse cx="540" cy="355" rx="12" ry="29" transform="rotate(15 540 355)"/>
+    <ellipse cx="470" cy="430" rx="12" ry="28" transform="rotate(-10 470 430)"/>
+    <ellipse cx="535" cy="420" rx="12" ry="28" transform="rotate(10 535 420)"/>
+
+    <!-- right crown -->
+    <ellipse cx="600" cy="390" rx="12" ry="28" transform="rotate(25 600 390)"/>
+    <ellipse cx="640" cy="415" rx="12" ry="28" transform="rotate(40 640 415)"/>
+    <ellipse cx="690" cy="445" rx="13" ry="30" transform="rotate(55 690 445)"/>
+    <ellipse cx="610" cy="470" rx="12" ry="28" transform="rotate(45 610 470)"/>
+    <ellipse cx="665" cy="490" rx="13" ry="30" transform="rotate(60 665 490)"/>
+    <ellipse cx="720" cy="520" rx="13" ry="30" transform="rotate(70 720 520)"/>
+    <ellipse cx="600" cy="535" rx="12" ry="28" transform="rotate(55 600 535)"/>
+    <ellipse cx="655" cy="550" rx="13" ry="30" transform="rotate(70 655 550)"/>
+    <ellipse cx="710" cy="585" rx="13" ry="30" transform="rotate(75 710 585)"/>
+    <ellipse cx="650" cy="350" rx="12" ry="28" transform="rotate(25 650 350)"/>
+    <ellipse cx="700" cy="385" rx="12" ry="28" transform="rotate(40 700 385)"/>
+  </g>
+
+  <!-- Waves -->
+  <g fill="none" stroke="#2C8AA9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 790
+             C270 825 345 815 420 780
+             C505 740 585 750 665 795
+             C730 830 790 830 840 810"
+          stroke-width="28"/>
+    <path d="M270 845
+             C345 805 420 805 500 845
+             C575 880 650 880 725 842
+             C775 817 820 820 850 835"
+          stroke-width="24"/>
+  </g>
+</svg>

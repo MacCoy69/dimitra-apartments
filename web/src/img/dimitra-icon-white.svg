@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="148" viewBox="14 32 76 74" role="img" aria-label="Dimitra Beach Apartments – Icon">
+  <g fill="none" stroke="#FBF7F0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="38,47 59,36 80,47"/>
+    <path d="M43 47 V77"/>
+    <path d="M75 47 V77"/>
+    <path d="M43 77 H75"/>
+  </g>
+  <g fill="#FBF7F0">
+    <circle cx="50" cy="51" r="10"/><circle cx="40" cy="53" r="6.5"/><circle cx="60" cy="52" r="7.5"/>
+    <circle cx="45" cy="46" r="5.5"/><circle cx="55" cy="46" r="5.5"/><circle cx="50" cy="43" r="5"/>
+    <circle cx="30" cy="53" r="7"/><circle cx="24" cy="54" r="4.5"/><circle cx="36" cy="51" r="5"/>
+    <circle cx="68" cy="52" r="7"/><circle cx="74" cy="53" r="4"/><circle cx="62" cy="51" r="5.5"/><circle cx="71" cy="49" r="4"/>
+  </g>
+  <g fill="none" stroke="#FBF7F0" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 80 Q44 67 50 57 Q53 52 51 49" stroke-width="3.6"/>
+    <g stroke-width="2.4">
+      <path d="M50 52 Q41 49 31 47"/>
+      <path d="M52 50 Q61 48 70 47"/>
+      <path d="M51 49 Q52 44 54 41"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#9FD3E0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 90 q12 -5 24 0 t24 0"/>
+    <path d="M34 96 q12 -5 24 0 t24 0"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120" role="img" aria-label="Dimitra Beach Apartments">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Sacramento&amp;display=swap');
+      .mark   { fill: none; stroke: #2D8AA8; stroke-width: 2.2; stroke-linecap: round; }
+      .sun    { fill: #2D8AA8; }
+      .word   { font-family: 'Cormorant Garamond', serif; font-weight: 600; fill: #33302B;
+                font-size: 38px; letter-spacing: 6px; }
+      .script { font-family: 'Sacramento', cursive; fill: #2D8AA8; font-size: 34px; }
+    </style>
+  </defs>
+  <!-- Emblem: sun over waves -->
+  <g transform="translate(160,20)">
+    <circle class="sun" cx="0" cy="0" r="6"/>
+    <path class="mark" d="M-22 14 q11 -8 22 0 q11 8 22 0"/>
+    <path class="mark" d="M-22 22 q11 -8 22 0 q11 8 22 0"/>
+  </g>
+  <text class="word"   x="160" y="78" text-anchor="middle">DIMITRA BEACH</text>
+  <text class="script" x="160" y="108" text-anchor="middle">Apartments</text>
+</svg>

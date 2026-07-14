@@ -1,0 +1,16 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in site.pages %}{% if p.key != "impressum" and p.key != "datenschutz" %}{% for lang in site.languages %}
+  <url>
+    <loc>{{ site.url }}/{{ lang }}/{{ p.slug and (p.slug + "/") }}</loc>
+    {%- for l2 in site.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ l2 }}" href="{{ site.url }}/{{ l2 }}/{{ p.slug and (p.slug + '/') }}"/>
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.defaultLang }}/{{ p.slug and (p.slug + '/') }}"/>
+  </url>
+{%- endfor %}{% endif %}{% endfor %}
+</urlset>

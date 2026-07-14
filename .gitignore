@@ -13,3 +13,7 @@ wunderwald-webdev.zip
 
 # Temporäre Render-/Vorschau-Dateien
 website/*.png
+
+# Eleventy / Node
+web/node_modules/
+web/_site/

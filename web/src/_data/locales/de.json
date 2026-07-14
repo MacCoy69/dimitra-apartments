@@ -1,0 +1,167 @@
+{
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "mainNav": "Hauptnavigation",
+    "langSwitch": "Sprache wählen",
+    "menu": "Menü öffnen",
+    "gallery": "Bildergalerie",
+    "close": "Schließen",
+    "prev": "Vorheriges Bild",
+    "next": "Nächstes Bild"
+  },
+  "nav": { "thassos": "Thassos", "festland": "Festland", "ausstattung": "Ausstattung", "lage": "Lage", "kontakt": "Kontakt", "inquire": "Anfragen" },
+  "legal": { "impressum": "Impressum", "datenschutz": "Datenschutz" },
+  "footer": {
+    "about": "Familiengeführte Ferienwohnungen in erster Meereslinie – auf Thassos und am griechischen Festland.",
+    "colDestinations": "Reiseziele",
+    "colContact": "Kontakt",
+    "colLegal": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten.",
+    "credit": "Gestaltung & Umsetzung:"
+  },
+  "home": {
+    "title": "Dimitra Beach Apartments – Ferienwohnungen am Meer | Thassos & Festland",
+    "description": "Dimitra Beach Apartments: stilvolle Ferienwohnungen in erster Meereslinie – auf Thassos (Skala Potamias, 700 m zum Golden Beach) und am griechischen Festland in Nea Karvali. Jetzt anfragen.",
+    "heroEyebrow": "Ferienwohnungen am Meer · Griechenland",
+    "heroSub": "Zwei Küsten, ein Gefühl von Ankommen. Stilvolle Apartments in erster Meereslinie – auf der Insel Thassos und am griechischen Festland.",
+    "heroCta1": "Reiseziel wählen",
+    "heroCta2": "Verfügbarkeit & Buchung",
+    "scroll": "Entdecken",
+    "auswahlEyebrow": "Ihr Reiseziel",
+    "auswahlTitle": "Wohin zieht es Sie?",
+    "auswahlLead": "Zwei Küsten, ein Versprechen: das Meer direkt vor der Tür. Folgen Sie dem Pinienduft auf die Insel Thassos – oder bleiben Sie am Festland, wo die Wellen die Terrasse streifen.",
+    "thassosCard": { "tag": "Insel · Skala Potamias", "script": "die grüne Insel", "text": "3 Apartments & ein Penthouse, nur 700 m vom Golden Beach. Pinienduft und Sonnenuntergänge über der Ägäis.", "cta": "Thassos entdecken", "alt": "Blick über Skala Potamias und das Meer auf Thassos" },
+    "festlandCard": { "tag": "Festland · Nea Karvali", "script": "erste Meereslinie", "text": "Gegenüber von Thassos, bei Kavala. Apartments direkt am Wasser – ruhiger Badeurlaub abseits der Insel.", "cta": "Festland entdecken", "alt": "Sonnige Terrasse mit Blick auf die Berge – Ferienwohnung am griechischen Festland" },
+    "welcome": {
+      "alt1": "Wohnbereich mit naturbelassenen Materialien, Rattan und sandfarbenen Tönen in einem Dimitra Apartment",
+      "alt2": "Private Terrasse im Grünen",
+      "stamp": "aus Familienhand",
+      "eyebrow": "Willkommen",
+      "title": "Ein Zuhause am Meer – mit griechischer Seele",
+      "p1": "Bei uns wird nicht eingecheckt – man kommt an. Dimitra Beach Apartments sind familiengeführt, mit warmen Erdtönen, naturbelassenen Materialien und dem Meer immer in Sichtweite. Echt, herzlich, ungekünstelt.",
+      "p2": "Jedes Apartment ist voll ausgestattet – eigene Küche, private Terrasse, alles für unbeschwerte Tage. Den Rest übernimmt die Ägäis. Sie wählen nur noch die Küste.",
+      "signature": "Ihre Familie Dimitra"
+    },
+    "momente": {
+      "eyebrow": "Urlaubsmomente",
+      "title": "Tage, die nach Sommer schmecken",
+      "items": [
+        { "script": "am Morgen", "title": "Der erste Kaffee", "text": "Barfuß auf die Terrasse, die Sonne noch weich – der Tag gehört ganz Ihnen." },
+        { "script": "am Nachmittag", "title": "Einfach treiben", "text": "Vom Golden Beach zurück, ein Buch, das Rauschen der Ägäis. Mehr braucht es nicht." },
+        { "script": "am Abend", "title": "Goldene Stunde", "text": "Wenn die Sonne ins Meer sinkt und der Himmel Farbe bekennt – jeden Abend neu." }
+      ]
+    },
+    "ausstattung": {
+      "eyebrow": "Ausstattung",
+      "title": "Alles da. Einfach ankommen.",
+      "lead": "Was beide Häuser gemeinsam haben – damit Sie sich um nichts kümmern müssen.",
+      "items": [
+        { "title": "Kostenfreies WLAN", "text": "Schnelles Internet im gesamten Apartment – für Urlaub oder Workation." },
+        { "title": "Privatparkplatz", "text": "Kostenfreier, privater Stellplatz direkt an der Unterkunft." },
+        { "title": "Garten & Grill", "text": "Gemütlicher Garten mit Grillmöglichkeit für laue Sommerabende." },
+        { "title": "Voll ausgestattete Küche", "text": "Kühlschrank, Ofen, Herdplatte, Kaffeemaschine, Toaster & Wasserkocher." },
+        { "title": "Terrasse mit Meerblick", "text": "Private Terrasse mit Sitzbereich – die schönste Aussicht inklusive." },
+        { "title": "Strand in Reichweite", "text": "Auf Thassos nur 700 m bis zum Golden Beach. Am Festland direkt am Wasser." }
+      ]
+    },
+    "galerie": { "eyebrow": "Einblicke", "title": "Bilder, die Lust auf Meer machen" },
+    "lage": {
+      "eyebrow": "Lage & Anreise",
+      "title": "Schnell da, lange bleiben",
+      "lead": "Thassos erreichen Sie bequem über den Flughafen Kavala und eine kurze Fährfahrt. Die wichtigsten Distanzen ab Skala Potamias:",
+      "d1": "Golden Beach", "d2": "Museum Polygnotou Vagi", "d3": "Hafen von Thassos", "d4": "Flughafen Kavala",
+      "mapTitle": "Karte: Skala Potamias, Thassos"
+    },
+    "kontakt": {
+      "eyebrow": "Buchung & Kontakt",
+      "title": "Verfügbarkeit prüfen & direkt buchen",
+      "text": "Aktuelle Verfügbarkeit und Preise sehen Sie live in unserem Buchungstool – dort buchen Sie in wenigen Schritten. Für persönliche Fragen sind wir jederzeit direkt für Sie da.",
+      "bookBtn": "Verfügbarkeit & Buchung",
+      "waNote": "Schnellste Antwort",
+      "phoneNote": "Telefon",
+      "form": {
+        "success": "Vielen Dank! Ihre Nachricht ist eingegangen – wir melden uns in Kürze.",
+        "heading": "Noch eine Frage? Schreiben Sie uns.",
+        "name": "Name", "email": "E-Mail",
+        "ziel": "Reiseziel (optional)", "zielPlaceholder": "Bitte wählen", "zielUndecided": "Noch unentschieden",
+        "phone": "Telefon (optional)", "message": "Ihre Nachricht", "messagePlaceholder": "Ihre Frage oder Ihr Anliegen …",
+        "consentPre": "Ich habe die", "consentPost": "gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Nachricht zu.",
+        "submit": "Nachricht senden"
+      }
+    }
+  },
+  "thassos": {
+    "title": "Thassos – Ferienwohnungen in Skala Potamias | Dimitra Beach Apartments",
+    "description": "Dimitra Beach Apartments auf Thassos: 3 Apartments & ein Penthouse in Skala Potamias, nur 700 m zum Golden Beach. Meerblick, eigene Küche, Terrasse. Jetzt anfragen.",
+    "hero": { "alt": "Terrasse mit Meerblick über Skala Potamias auf Thassos", "crumb": "Start", "eyebrow": "Insel · Skala Potamias", "scriptSub": "die grüne Insel der Ägäis", "sub": "Drei Apartments und ein Penthouse, eingebettet ins Grün von Skala Potamias – und nur 700 m bis zum berühmten Golden Beach." },
+    "intro": { "eyebrow": "Skala Potamias", "title": "Insel-Ruhe, Strand vor der Tür", "lead": "Pinienwälder, kristallklares Wasser, das entspannte Tempo der Insel. Morgens ein Sprung ins Meer, mittags Schatten unter Oliven, abends Tavernen am Hafen. Unsere Apartments liegen ruhig und doch mittendrin – Sie wählen die Größe, den Rest übernimmt Thassos." },
+    "units": {
+      "eyebrow": "Unsere Unterkünfte", "title": "3 Apartments & 1 Penthouse",
+      "items": [
+        { "badge": "Apartment", "name": "Apartment Olive", "script": "ebenerdig & grün", "desc": "Helles Apartment mit eigener Terrasse zum Garten – ideal für Paare und kleine Familien, die es ruhig mögen.", "facts": ["bis 3 Gäste", "1 Schlafzimmer", "Garten/Stadtblick"], "ticks": ["Voll ausgestattete Küche", "Eigenes Bad mit Dusche", "Kostenfreies WLAN", "Privatparkplatz"] },
+        { "badge": "Apartment", "name": "Apartment Aegean", "script": "hell & weit", "desc": "Offener Wohn-/Essbereich mit voll ausgestatteter Küche und Sitzbereich – Platz für gesellige Urlaubstage.", "facts": ["bis 4 Gäste", "1–2 Schlafzimmer", "Terrasse"], "ticks": ["Flachbild-TV", "Kaffeemaschine & Wasserkocher", "Garten mit Grill", "Haartrockner"] },
+        { "badge": "Apartment", "name": "Apartment Pine", "script": "ruhig & gemütlich", "desc": "Geschützt gelegenes Apartment mit komfortablem Schlafzimmer und eigener Terrasse – zum Durchatmen.", "facts": ["bis 3 Gäste", "1 Schlafzimmer", "Terrasse"], "ticks": ["Eigene Küche mit Ofen", "Toaster & Herdplatte", "Kostenfreies WLAN", "Fahrradtouren ab Haustür"] },
+        { "highlight": true, "badge": "Penthouse", "name": "Penthouse Dimitra", "script": "die beste Aussicht", "desc": "Unser Schmuckstück: großzügiges Penthouse mit Dachterrasse und Panoramablick über Skala Potamias bis aufs Meer – Sonnenuntergänge inklusive.", "facts": ["bis 4 Gäste", "2 Schlafzimmer", "Panorama-Meerblick"], "ticks": ["Große Dachterrasse", "Voll ausgestattete Küche", "2 Badezimmer", "Privatparkplatz"] }
+      ]
+    },
+    "gallery": { "eyebrow": "Galerie", "title": "Einblicke aus Thassos" },
+    "lage": { "eyebrow": "Lage & Anreise", "title": "Mitten in Skala Potamias", "lead": "Strand, Tavernen und Hafen in Reichweite – die Anreise ist über den Flughafen Kavala und eine kurze Fähre unkompliziert.", "d1": "Golden Beach", "d2": "Museum Polygnotou Vagi", "d3": "Hafen von Thassos", "d4": "Flughafen Kavala", "cta": "Verfügbarkeit anfragen", "mapTitle": "Karte: Skala Potamias, Thassos" },
+    "cta": { "title": "Bereit für Thassos?", "lead": "Sagen Sie uns Ihren Wunschzeitraum – wir prüfen die Verfügbarkeit und melden uns persönlich.", "btn1": "Jetzt anfragen" }
+  },
+  "festland": {
+    "title": "Festland – Ferienwohnungen in Nea Karvali bei Kavala | Dimitra Beach Apartments",
+    "description": "Dimitra Beach Apartments am griechischen Festland: Ferienwohnungen in erster Meereslinie in Nea Karvali, gegenüber von Thassos. Direkt am Wasser, ruhig und zentral.",
+    "hero": { "crumb": "Start", "eyebrow": "Festland · Nea Karvali", "title": "Am Festland", "scriptSub": "erste Meereslinie", "sub": "Gegenüber von Thassos, bei Kavala: unsere Apartments in Nea Karvali liegen direkt am Wasser – ruhig, unkompliziert und ideal als Insel-Alternative oder Reise-Etappe.", "photoNote": "Fotostrecke folgt in Kürze" },
+    "intro": { "eyebrow": "Nea Karvali", "title": "Das Meer direkt vor der Tür", "lead": "Nea Karvali liegt an der Küste östlich von Kavala, mit Blick hinüber zur Insel Thassos. Unsere Apartments stehen in erster Meereslinie – perfekt zum Baden, für entspannte Abende am Wasser und als Ausgangspunkt für Ausflüge aufs Festland und zur Fähre." },
+    "vorteile": {
+      "eyebrow": "Warum Festland", "title": "Ihre Vorteile in Nea Karvali",
+      "items": [
+        { "title": "Erste Meereslinie", "text": "Apartments direkt am Wasser – Meerblick und Zugang ohne lange Wege." },
+        { "title": "Tor nach Thassos", "text": "Die Fähre zur Insel ist schnell erreichbar – ideal, um beide Welten zu verbinden." },
+        { "title": "Nah am Flughafen", "text": "Der Flughafen Kavala liegt nur eine kurze Fahrt entfernt – bequeme An- und Abreise." }
+      ]
+    },
+    "units": {
+      "eyebrow": "Unterkünfte", "title": "Apartments am Wasser", "lead": "Die Detailseiten mit Bildern und Ausstattung der Festland-Apartments folgen in Kürze. Schon jetzt gilt: voll ausgestattete Küche, eigenes Bad, WLAN und der Strand direkt vor der Tür.",
+      "cards": [
+        { "tag": "Fotos folgen", "title": "Apartment am Meer", "text": "Voll ausgestattet, in erster Meereslinie. Details & Bilder in Vorbereitung.", "cta": "Jetzt anfragen" },
+        { "tag": "Fotos folgen", "title": "Weitere Einheiten", "text": "Mehrere Apartments verfügbar. Wir beraten Sie gern zur passenden Größe.", "cta": "Verfügbarkeit erfragen" }
+      ]
+    },
+    "lage": {
+      "eyebrow": "Lage & Anreise", "title": "Zwischen Kavala & Thassos", "lead": "Nea Karvali ist gut angebunden – per Flughafen Kavala und über die Fährverbindung nach Thassos.",
+      "dist": [
+        { "label": "Strand / Meer", "val": "erste Reihe" },
+        { "label": "Kavala Zentrum", "val": "ca. 12 km" },
+        { "label": "Flughafen Kavala", "val": "ca. 15 km" },
+        { "label": "Fähre nach Thassos", "val": "in der Nähe" }
+      ],
+      "note": "Entfernungen ungefähr – exakte Adresse & Distanzen werden ergänzt.", "cta": "Verfügbarkeit anfragen", "mapTitle": "Karte: Nea Karvali bei Kavala"
+    },
+    "cta": { "title": "Lieber Festland?", "lead": "Erzählen Sie uns von Ihrer Reise – wir finden das passende Apartment in Nea Karvali.", "btn": "Jetzt anfragen" }
+  },
+  "impressum": {
+    "title": "Impressum | Dimitra Beach Apartments",
+    "description": "Impressum der Dimitra Beach Apartments.",
+    "kicker": "Rechtliches", "noteLabel": "Platzhalter:", "note": "Bitte vor Veröffentlichung mit den echten Angaben des Betreibers gemäß § 5 TMG (bzw. griechischem Recht) ausfüllen.",
+    "sections": [
+      { "h": "Angaben gemäß § 5 TMG", "p": ["Dimitra Beach Apartments", "[Inhaber/Betreiber Name]", "[Straße & Hausnummer]", "[PLZ Ort], Griechenland"] },
+      { "h": "Kontakt", "p": ["Telefon: +30 000 000 0000", "E-Mail: info@dimitra-apartments.gr"] },
+      { "h": "Umsatzsteuer-ID / Steuernummer", "p": ["[falls vorhanden]"] },
+      { "h": "Verantwortlich für den Inhalt", "p": ["[Name & Anschrift]"] },
+      { "h": "Haftung & Urheberrecht", "p": ["Inhalte dieser Website wurden mit Sorgfalt erstellt. Für externe Links wird keine Haftung übernommen; verantwortlich ist der jeweilige Anbieter. Alle Fotos und Texte sind urheberrechtlich geschützt."] }
+    ]
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung | Dimitra Beach Apartments",
+    "description": "Datenschutzerklärung der Dimitra Beach Apartments.",
+    "kicker": "Rechtliches", "noteLabel": "Platzhalter:", "note": "Vor Go-Live durch eine rechtssichere, auf den tatsächlichen Einsatz (Hosting, Formular-Versand, ggf. Buchungstool, Karten) abgestimmte DSGVO-Erklärung ersetzen.",
+    "sections": [
+      { "h": "1. Verantwortlicher", "p": ["Dimitra Beach Apartments, [Anschrift], E-Mail: info@dimitra-apartments.gr"] },
+      { "h": "2. Erhebung von Daten beim Anfrageformular", "p": ["Wenn Sie das Anfrageformular nutzen, verarbeiten wir die von Ihnen angegebenen Daten (Name, E-Mail, ggf. Telefon, Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO)."] },
+      { "h": "3. Hosting & Server-Logfiles", "p": ["Beim Aufruf der Website werden technisch notwendige Daten (IP-Adresse, Zeitpunkt, abgerufene Seite) verarbeitet. [Hoster ergänzen.]"] },
+      { "h": "4. Schriftarten & Karten", "p": ["Aktuell werden Google Fonts und OpenStreetMap-Karten extern eingebunden. Vor Go-Live werden Fonts lokal gehostet und Karten datensparsam/per Zwei-Klick-Lösung eingebunden."] },
+      { "h": "5. Ihre Rechte", "p": ["Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch sowie ein Beschwerderecht bei einer Aufsichtsbehörde."] }
+    ]
+  }
+}

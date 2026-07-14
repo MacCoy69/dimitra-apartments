@@ -1,8 +1,10 @@
 # Netlify-Konfiguration – Dimitra Beach Apartments
-# Die Website liegt im Unterordner /website (kein Build-Step nötig, statisches HTML).
+# Mehrsprachige Website (Eleventy-Build) im Ordner /web, Ausgabe /web/_site.
 
 [build]
-  publish = "website"
+  base = "web"
+  command = "npm install && npx @11ty/eleventy"
+  publish = "_site"
 
 # Sicherheits- & Cache-Header (optional, sinnvoll für statische Seiten)
 [[headers]]

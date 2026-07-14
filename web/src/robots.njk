@@ -1,0 +1,11 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+Allow: /
+{% for lang in site.languages -%}
+Disallow: /{{ lang }}/impressum/
+Disallow: /{{ lang }}/datenschutz/
+{% endfor %}
+Sitemap: {{ site.url }}/sitemap.xml

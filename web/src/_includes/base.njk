@@ -1,0 +1,136 @@
+{%- set L = i18n[lang] -%}
+{%- set meta = i18n[lang][pageKey] -%}
+{%- set here = '/' + lang + '/' + (slug and (slug + '/')) -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ meta.title }}</title>
+  <meta name="description" content="{{ meta.description }}">
+  <meta name="robots" content="{{ robots or 'index, follow' }}">
+  <link rel="canonical" href="{{ site.url }}{{ here }}">
+  {%- for L2 in site.languages %}
+  <link rel="alternate" hreflang="{{ L2 }}" href="{{ site.url }}/{{ L2 }}/{{ slug and (slug + '/') }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.defaultLang }}/{{ slug and (slug + '/') }}">
+
+  <meta property="og:title" content="{{ meta.title }}">
+  <meta property="og:description" content="{{ meta.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ here }}">
+  <meta property="og:image" content="{{ site.url }}/img/penthouse-ausblick-01.webp">
+  <meta property="og:locale" content="{{ lang }}">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Dimitra Beach Apartments",
+    "url": "{{ site.url }}{{ here }}",
+    "image": "{{ site.url }}/img/penthouse-ausblick-01.webp",
+    "priceRange": "€€",
+    "address": { "@type": "PostalAddress", "addressLocality": "Skala Potamias, Thassos", "addressCountry": "GR" }
+  }
+  </script>
+</head>
+<body class="{{ 'theme-over' if theme == 'over' }}">
+
+  <a href="#main" class="sr-only focus:not-sr-only">{{ L.a11y.skip }}</a>
+
+  {% include "sprite.njk" %}
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="logo" href="/{{ lang }}/" aria-label="Dimitra Beach Apartments">
+        <img class="logo__icon" src="/img/{{ 'dimitra_beach_icon.svg' if theme == 'over' else 'dimitra_beach_icon_dark.svg' }}" alt="" aria-hidden="true" width="49" height="48">
+        <span class="logo__text">
+          <span class="logo__word">DIMITRA BEACH</span>
+          <span class="logo__sub">Apartments</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="{{ L.a11y.mainNav }}">
+        <ul>
+          <li><a href="/{{ lang }}/thassos/"{% if pageKey == 'thassos' %} class="active"{% endif %}>{{ L.nav.thassos }}</a></li>
+          <li><a href="/{{ lang }}/festland/"{% if pageKey == 'festland' %} class="active"{% endif %}>{{ L.nav.festland }}</a></li>
+          <li><a href="/{{ lang }}/#ausstattung">{{ L.nav.ausstattung }}</a></li>
+          <li><a href="/{{ lang }}/#lage">{{ L.nav.lage }}</a></li>
+          <li><a href="/{{ lang }}/#kontakt">{{ L.nav.kontakt }}</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" aria-label="{{ L.a11y.langSwitch }}">
+          {%- for L2 in site.languages %}{% if not loop.first %}<span>/</span>{% endif %}<a href="/{{ L2 }}/{{ slug and (slug + '/') }}"{% if L2 == lang %} class="active" aria-current="true"{% endif %} hreflang="{{ L2 }}">{{ site.langShort[L2] }}</a>{% endfor %}
+        </div>
+        <a href="/{{ lang }}/#kontakt" class="btn btn--ghost">{{ L.nav.inquire }}</a>
+      </div>
+
+      <button class="burger" aria-label="{{ L.a11y.menu }}" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-logo">
+          <span class="logo">
+            <img class="logo__icon" src="/img/dimitra_beach_icon.svg" alt="" aria-hidden="true" width="53" height="52">
+            <span class="logo__text"><span class="logo__word">DIMITRA BEACH</span><span class="logo__sub">Apartments</span></span>
+          </span>
+          <p class="footer-about">{{ L.footer.about }}</p>
+        </div>
+        <div>
+          <h4>{{ L.footer.colDestinations }}</h4>
+          <ul class="footer-links">
+            <li><a href="/{{ lang }}/thassos/">{{ L.nav.thassos }} – Skala Potamias</a></li>
+            <li><a href="/{{ lang }}/festland/">{{ L.nav.festland }} – Nea Karvali</a></li>
+            <li><a href="/{{ lang }}/#ausstattung">{{ L.nav.ausstattung }}</a></li>
+            <li><a href="/{{ lang }}/#lage">{{ L.nav.lage }}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>{{ L.footer.colContact }}</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:info@dimitra-apartments.gr">info@dimitra-apartments.gr</a></li>
+            <li><a href="tel:+300000000000">+30 000 000 0000</a></li>
+            <li><a href="https://wa.me/300000000000" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li>Skala Potamias, Thassos · GR</li>
+          </ul>
+        </div>
+        <div>
+          <h4>{{ L.footer.colLegal }}</h4>
+          <ul class="footer-links">
+            <li><a href="/{{ lang }}/impressum/">{{ L.legal.impressum }}</a></li>
+            <li><a href="/{{ lang }}/datenschutz/">{{ L.legal.datenschutz }}</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Dimitra Beach Apartments. {{ L.footer.rights }}</span>
+        <span class="footer-credit">{{ L.footer.credit }} <a href="https://wunderwald-media.de" target="_blank" rel="noopener">Wunderwald Media</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="{{ L.a11y.gallery }}">
+    <button class="lightbox__close" aria-label="{{ L.a11y.close }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <button class="lightbox__nav prev" aria-label="{{ L.a11y.prev }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+    <img src="" alt="">
+    <button class="lightbox__nav next" aria-label="{{ L.a11y.next }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+  </div>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

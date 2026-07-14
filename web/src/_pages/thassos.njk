@@ -1,0 +1,116 @@
+---
+pagination:
+  data: site.languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/thassos/index.html"
+layout: base.njk
+pageKey: thassos
+slug: thassos
+theme: over
+---
+{%- set L = i18n[lang] -%}
+{%- set T = L.thassos -%}
+
+<section class="page-hero" aria-labelledby="th-heading">
+  <div class="page-hero__media"><img src="/img/penthouse-terrasse-03.webp" alt="{{ T.hero.alt }}" width="1600" height="900" fetchpriority="high"></div>
+  <div class="container">
+    <div class="page-hero__inner">
+      <p class="breadcrumb reveal"><a href="/{{ lang }}/">{{ T.hero.crumb }}</a> &nbsp;/&nbsp; Thassos</p>
+      <span class="eyebrow reveal" style="color:rgba(255,255,255,.9)">{{ T.hero.eyebrow }}</span>
+      <h1 id="th-heading" class="reveal d1">Thassos<span class="script" style="color:#fff;display:block;font-size:.6em;">{{ T.hero.scriptSub }}</span></h1>
+      <p class="reveal d2">{{ T.hero.sub }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="th-intro">
+  <svg class="deco deco--tr deco--float" aria-hidden="true"><use href="#d-sun"/></svg>
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">{{ T.intro.eyebrow }}</span>
+      <h2 id="th-intro" class="section-title">{{ T.intro.title }}</h2>
+      <svg class="doodle-rule" width="90" height="12" aria-hidden="true"><use href="#d-squiggle"/></svg>
+      <p class="lead">{{ T.intro.lead }}</p>
+    </div>
+  </div>
+</section>
+
+<section id="apartments" class="section section--alt" aria-labelledby="units-heading">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ T.units.eyebrow }}</span>
+      <h2 id="units-heading" class="section-title">{{ T.units.title }}</h2>
+    </div>
+    {%- set unitImgs = ['apartment-terrasse-01','apartment-wohnzimmer-02','apartment-schlafzimmer-06','penthouse-terrasse-01'] -%}
+    {%- set factIcons = ['i-users','i-bed','i-sea'] -%}
+    <div class="units">
+      {%- for u in T.units.items %}
+      <article class="unit reveal">
+        <div class="unit__media">
+          {%- if u.highlight %}<span class="unit__badge" style="background:var(--color-primary);color:#fff;">{{ u.badge }}</span>{% else %}<span class="unit__badge">{{ u.badge }}</span>{% endif %}
+          <img src="/img/{{ unitImgs[loop.index0] }}.webp" alt="{{ u.name }}" loading="lazy">
+        </div>
+        <div>
+          <h3>{{ u.name }}</h3><span class="script">{{ u.script }}</span>
+          <p style="margin-top:.8rem;color:var(--color-text-light)">{{ u.desc }}</p>
+          <div class="unit__facts">
+            {%- for f in u.facts %}<span><svg><use href="#{{ factIcons[loop.index0] }}"/></svg> {{ f }}</span>{% endfor %}
+          </div>
+          <ul class="tick-list">
+            {%- for tick in u.ticks %}<li><svg><use href="#i-check"/></svg> {{ tick }}</li>{% endfor %}
+          </ul>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="th-gal">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">{{ T.gallery.eyebrow }}</span><h2 id="th-gal" class="section-title">{{ T.gallery.title }}</h2></div>
+    <div class="gallery reveal" data-lightbox>
+      <figure class="tall"><img src="/img/penthouse-ausblick-01.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/apartment-kueche-02.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/apartment-schlafzimmer-03.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure class="wide"><img src="/img/penthouse-terrasse-05.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/apartment-essbereich-01.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/penthouse-wohnzimmer-01.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/apartment-bad-02.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+      <figure><img src="/img/apartment-terrasse-02.webp" alt="{{ T.gallery.title }}" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section id="lage" class="section section--alt" aria-labelledby="th-lage">
+  <div class="container">
+    <div class="loc-grid">
+      <div class="reveal">
+        <span class="eyebrow">{{ T.lage.eyebrow }}</span>
+        <h2 id="th-lage" class="section-title" style="margin:1rem 0 .6rem;">{{ T.lage.title }}</h2>
+        <p class="lead">{{ T.lage.lead }}</p>
+        <ul class="dist-list">
+          <li><span class="place"><svg><use href="#i-beach"/></svg> {{ T.lage.d1 }}</span><span class="km">700 m</span></li>
+          <li><span class="place"><svg><use href="#i-pin"/></svg> {{ T.lage.d2 }}</span><span class="km">2,8 km</span></li>
+          <li><span class="place"><svg><use href="#i-ferry"/></svg> {{ T.lage.d3 }}</span><span class="km">13 km</span></li>
+          <li><span class="place"><svg><use href="#i-plane"/></svg> {{ T.lage.d4 }}</span><span class="km">34 km</span></li>
+        </ul>
+        <a href="/{{ lang }}/#kontakt" class="btn btn--primary" style="margin-top:1.8rem;">{{ T.lage.cta }}</a>
+      </div>
+      <div class="map-card reveal d1">
+        <iframe title="{{ T.lage.mapTitle }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=24.70%2C40.62%2C24.80%2C40.69&amp;layer=mapnik&amp;marker=40.655%2C24.745"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep" aria-labelledby="th-cta">
+  <div class="container" style="text-align:center;max-width:680px;">
+    <h2 id="th-cta" class="section-title reveal" style="color:#fff;">{{ T.cta.title }}</h2>
+    <p class="lead reveal d1" style="margin:1rem auto 2rem;">{{ T.cta.lead }}</p>
+    <div class="reveal d2" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="/{{ lang }}/#kontakt" class="btn btn--primary">{{ T.cta.btn1 }}</a>
+    </div>
+  </div>
+</section>

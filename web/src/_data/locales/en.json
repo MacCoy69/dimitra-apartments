@@ -1,0 +1,167 @@
+{
+  "a11y": {
+    "skip": "Skip to content",
+    "mainNav": "Main navigation",
+    "langSwitch": "Choose language",
+    "menu": "Open menu",
+    "gallery": "Image gallery",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "nav": { "thassos": "Thassos", "festland": "Mainland", "ausstattung": "Amenities", "lage": "Location", "kontakt": "Contact", "inquire": "Enquire" },
+  "legal": { "impressum": "Imprint", "datenschutz": "Privacy" },
+  "footer": {
+    "about": "Family-run holiday apartments right by the sea – on Thassos and on the Greek mainland.",
+    "colDestinations": "Destinations",
+    "colContact": "Contact",
+    "colLegal": "Legal",
+    "rights": "All rights reserved.",
+    "credit": "Design & build:"
+  },
+  "home": {
+    "title": "Dimitra Beach Apartments – Seaside Holiday Homes | Thassos & Mainland",
+    "description": "Dimitra Beach Apartments: stylish holiday homes right by the sea – on Thassos (Skala Potamias, 700 m to Golden Beach) and on the Greek mainland in Nea Karvali. Get in touch.",
+    "heroEyebrow": "Seaside holiday homes · Greece",
+    "heroSub": "Two coasts, one feeling of arriving. Stylish apartments right by the sea – on the island of Thassos and on the Greek mainland.",
+    "heroCta1": "Choose your destination",
+    "heroCta2": "Availability & booking",
+    "scroll": "Discover",
+    "auswahlEyebrow": "Your destination",
+    "auswahlTitle": "Where will you go?",
+    "auswahlLead": "Two coasts, one promise: the sea right on your doorstep. Follow the scent of pines to the island of Thassos – or stay on the mainland, where the waves brush your terrace.",
+    "thassosCard": { "tag": "Island · Skala Potamias", "script": "the green island", "text": "3 apartments & a penthouse, just 700 m from Golden Beach. Pine scent and sunsets over the Aegean.", "cta": "Discover Thassos", "alt": "View over Skala Potamias and the sea on Thassos" },
+    "festlandCard": { "tag": "Mainland · Nea Karvali", "script": "right on the seafront", "text": "Opposite Thassos, near Kavala. Apartments directly on the water – a quiet beach holiday away from the island.", "cta": "Discover the mainland", "alt": "Sunny terrace with mountain views – holiday home on the Greek mainland" },
+    "welcome": {
+      "alt1": "Living area with natural materials, rattan and sandy tones in a Dimitra apartment",
+      "alt2": "Private terrace surrounded by greenery",
+      "stamp": "family-run",
+      "eyebrow": "Welcome",
+      "title": "A home by the sea – with a Greek soul",
+      "p1": "With us you don't check in – you arrive. Dimitra Beach Apartments are family-run, with warm earthy tones, natural materials and the sea always in view. Real, warm, unpretentious.",
+      "p2": "Every apartment is fully equipped – your own kitchen, a private terrace, everything for carefree days. The Aegean takes care of the rest. All you choose is the coast.",
+      "signature": "Your Dimitra family"
+    },
+    "momente": {
+      "eyebrow": "Holiday moments",
+      "title": "Days that taste of summer",
+      "items": [
+        { "script": "in the morning", "title": "The first coffee", "text": "Barefoot onto the terrace, the sun still soft – the day is all yours." },
+        { "script": "in the afternoon", "title": "Simply drift", "text": "Back from Golden Beach, a book, the murmur of the Aegean. Nothing more is needed." },
+        { "script": "in the evening", "title": "Golden hour", "text": "As the sun sinks into the sea and the sky shows its colours – new every evening." }
+      ]
+    },
+    "ausstattung": {
+      "eyebrow": "Amenities",
+      "title": "Everything's here. Just arrive.",
+      "lead": "What both houses have in common – so you don't have to worry about a thing.",
+      "items": [
+        { "title": "Free Wi-Fi", "text": "Fast internet throughout the apartment – for holidays or a workation." },
+        { "title": "Private parking", "text": "Free, private parking space right at the property." },
+        { "title": "Garden & barbecue", "text": "A cosy garden with a barbecue for balmy summer evenings." },
+        { "title": "Fully equipped kitchen", "text": "Fridge, oven, hob, coffee machine, toaster & kettle." },
+        { "title": "Terrace with sea view", "text": "Private terrace with a seating area – the finest view included." },
+        { "title": "Beach within reach", "text": "On Thassos just 700 m to Golden Beach. On the mainland right on the water." }
+      ]
+    },
+    "galerie": { "eyebrow": "Impressions", "title": "Pictures that make you long for the sea" },
+    "lage": {
+      "eyebrow": "Location & getting here",
+      "title": "Quick to reach, hard to leave",
+      "lead": "Thassos is easily reached via Kavala airport and a short ferry crossing. The key distances from Skala Potamias:",
+      "d1": "Golden Beach", "d2": "Polygnotos Vagis Museum", "d3": "Port of Thassos", "d4": "Kavala Airport",
+      "mapTitle": "Map: Skala Potamias, Thassos"
+    },
+    "kontakt": {
+      "eyebrow": "Booking & contact",
+      "title": "Check availability & book directly",
+      "text": "See live availability and prices in our booking tool – where you can book in just a few steps. For personal questions we're always here for you directly.",
+      "bookBtn": "Availability & booking",
+      "waNote": "Fastest reply",
+      "phoneNote": "Phone",
+      "form": {
+        "success": "Thank you! Your message has been received – we'll be in touch shortly.",
+        "heading": "Have a question? Write to us.",
+        "name": "Name", "email": "Email",
+        "ziel": "Destination (optional)", "zielPlaceholder": "Please choose", "zielUndecided": "Still undecided",
+        "phone": "Phone (optional)", "message": "Your message", "messagePlaceholder": "Your question or request …",
+        "consentPre": "I have read the", "consentPost": "and consent to my data being processed to handle my message.",
+        "submit": "Send message"
+      }
+    }
+  },
+  "thassos": {
+    "title": "Thassos – Holiday Apartments in Skala Potamias | Dimitra Beach Apartments",
+    "description": "Dimitra Beach Apartments on Thassos: 3 apartments & a penthouse in Skala Potamias, just 700 m from Golden Beach. Sea view, own kitchen, terrace. Get in touch.",
+    "hero": { "alt": "Terrace with sea view over Skala Potamias on Thassos", "crumb": "Home", "eyebrow": "Island · Skala Potamias", "scriptSub": "the green island of the Aegean", "sub": "Three apartments and a penthouse, nestled in the greenery of Skala Potamias – and just 700 m from the famous Golden Beach." },
+    "intro": { "eyebrow": "Skala Potamias", "title": "Island calm, the beach on your doorstep", "lead": "Pine forests, crystal-clear water, the island's relaxed pace. A morning dip in the sea, midday shade under olive trees, evening tavernas by the harbour. Our apartments sit quietly yet right in the middle – you choose the size, Thassos does the rest." },
+    "units": {
+      "eyebrow": "Our accommodation", "title": "3 apartments & 1 penthouse",
+      "items": [
+        { "badge": "Apartment", "name": "Apartment Olive", "script": "ground floor & green", "desc": "A bright apartment with its own terrace onto the garden – ideal for couples and small families who like it quiet.", "facts": ["up to 3 guests", "1 bedroom", "garden/town view"], "ticks": ["Fully equipped kitchen", "Private bathroom with shower", "Free Wi-Fi", "Private parking"] },
+        { "badge": "Apartment", "name": "Apartment Aegean", "script": "bright & spacious", "desc": "Open living/dining area with a fully equipped kitchen and seating area – room for sociable holiday days.", "facts": ["up to 4 guests", "1–2 bedrooms", "terrace"], "ticks": ["Flat-screen TV", "Coffee machine & kettle", "Garden with barbecue", "Hair dryer"] },
+        { "badge": "Apartment", "name": "Apartment Pine", "script": "quiet & cosy", "desc": "A sheltered apartment with a comfortable bedroom and its own terrace – to breathe out.", "facts": ["up to 3 guests", "1 bedroom", "terrace"], "ticks": ["Own kitchen with oven", "Toaster & hob", "Free Wi-Fi", "Cycling routes from the door"] },
+        { "highlight": true, "badge": "Penthouse", "name": "Penthouse Dimitra", "script": "the best view", "desc": "Our gem: a generous penthouse with a roof terrace and panoramic views over Skala Potamias out to sea – sunsets included.", "facts": ["up to 4 guests", "2 bedrooms", "panoramic sea view"], "ticks": ["Large roof terrace", "Fully equipped kitchen", "2 bathrooms", "Private parking"] }
+      ]
+    },
+    "gallery": { "eyebrow": "Gallery", "title": "Impressions from Thassos" },
+    "lage": { "eyebrow": "Location & getting here", "title": "Right in Skala Potamias", "lead": "Beach, tavernas and harbour within reach – getting here via Kavala airport and a short ferry is easy.", "d1": "Golden Beach", "d2": "Polygnotos Vagis Museum", "d3": "Port of Thassos", "d4": "Kavala Airport", "cta": "Check availability", "mapTitle": "Map: Skala Potamias, Thassos" },
+    "cta": { "title": "Ready for Thassos?", "lead": "Tell us your preferred dates – we'll check availability and get back to you personally.", "btn1": "Enquire now" }
+  },
+  "festland": {
+    "title": "Mainland – Holiday Apartments in Nea Karvali near Kavala | Dimitra Beach Apartments",
+    "description": "Dimitra Beach Apartments on the Greek mainland: holiday homes right on the seafront in Nea Karvali, opposite Thassos. Directly on the water, quiet and central.",
+    "hero": { "crumb": "Home", "eyebrow": "Mainland · Nea Karvali", "title": "On the mainland", "scriptSub": "right on the seafront", "sub": "Opposite Thassos, near Kavala: our apartments in Nea Karvali sit right on the water – quiet, easy and ideal as an island alternative or a stop along the way.", "photoNote": "Photo series coming soon" },
+    "intro": { "eyebrow": "Nea Karvali", "title": "The sea right on your doorstep", "lead": "Nea Karvali lies on the coast east of Kavala, looking across to the island of Thassos. Our apartments are right on the seafront – perfect for swimming, relaxed evenings by the water and as a base for trips on the mainland and to the ferry." },
+    "vorteile": {
+      "eyebrow": "Why the mainland", "title": "Your advantages in Nea Karvali",
+      "items": [
+        { "title": "Right on the seafront", "text": "Apartments directly on the water – sea view and access without long walks." },
+        { "title": "Gateway to Thassos", "text": "The ferry to the island is quick to reach – ideal for combining both worlds." },
+        { "title": "Close to the airport", "text": "Kavala airport is just a short drive away – easy arrival and departure." }
+      ]
+    },
+    "units": {
+      "eyebrow": "Accommodation", "title": "Apartments by the water", "lead": "The detail pages with photos and amenities of the mainland apartments are coming soon. Already now: fully equipped kitchen, private bathroom, Wi-Fi and the beach right outside.",
+      "cards": [
+        { "tag": "Photos coming", "title": "Apartment by the sea", "text": "Fully equipped, right on the seafront. Details & photos in preparation.", "cta": "Enquire now" },
+        { "tag": "Photos coming", "title": "Further units", "text": "Several apartments available. We're happy to advise on the right size.", "cta": "Ask about availability" }
+      ]
+    },
+    "lage": {
+      "eyebrow": "Location & getting here", "title": "Between Kavala & Thassos", "lead": "Nea Karvali is well connected – via Kavala airport and the ferry link to Thassos.",
+      "dist": [
+        { "label": "Beach / sea", "val": "front row" },
+        { "label": "Kavala centre", "val": "approx. 12 km" },
+        { "label": "Kavala Airport", "val": "approx. 15 km" },
+        { "label": "Ferry to Thassos", "val": "nearby" }
+      ],
+      "note": "Distances approximate – exact address & distances to be added.", "cta": "Check availability", "mapTitle": "Map: Nea Karvali near Kavala"
+    },
+    "cta": { "title": "Prefer the mainland?", "lead": "Tell us about your trip – we'll find the right apartment in Nea Karvali.", "btn": "Enquire now" }
+  },
+  "impressum": {
+    "title": "Imprint | Dimitra Beach Apartments",
+    "description": "Imprint of Dimitra Beach Apartments.",
+    "kicker": "Legal", "noteLabel": "Placeholder:", "note": "Please complete with the operator's real details in accordance with applicable law before publishing.",
+    "sections": [
+      { "h": "Company details", "p": ["Dimitra Beach Apartments", "[Owner/operator name]", "[Street & number]", "[Postcode City], Greece"] },
+      { "h": "Contact", "p": ["Phone: +30 000 000 0000", "Email: info@dimitra-apartments.gr"] },
+      { "h": "VAT ID / tax number", "p": ["[if applicable]"] },
+      { "h": "Responsible for content", "p": ["[Name & address]"] },
+      { "h": "Liability & copyright", "p": ["The contents of this website have been prepared with care. No liability is accepted for external links; the respective provider is responsible. All photos and texts are protected by copyright."] }
+    ]
+  },
+  "datenschutz": {
+    "title": "Privacy Policy | Dimitra Beach Apartments",
+    "description": "Privacy policy of Dimitra Beach Apartments.",
+    "kicker": "Legal", "noteLabel": "Placeholder:", "note": "Replace before go-live with a legally compliant GDPR statement tailored to the actual setup (hosting, form delivery, booking tool, maps).",
+    "sections": [
+      { "h": "1. Controller", "p": ["Dimitra Beach Apartments, [address], email: info@dimitra-apartments.gr"] },
+      { "h": "2. Data collected via the contact form", "p": ["When you use the contact form, we process the data you provide (name, email, optionally phone, message) solely to handle your enquiry (Art. 6(1)(b) GDPR)."] },
+      { "h": "3. Hosting & server log files", "p": ["When the website is accessed, technically necessary data (IP address, time, page requested) is processed. [Add host.]"] },
+      { "h": "4. Fonts & maps", "p": ["Currently Google Fonts and OpenStreetMap maps are embedded externally. Before go-live, fonts will be self-hosted and maps embedded in a data-saving / two-click manner."] },
+      { "h": "5. Your rights", "p": ["You have the right to access, rectification, erasure, restriction, data portability and objection, as well as the right to lodge a complaint with a supervisory authority."] }
+    ]
+  }
+}
