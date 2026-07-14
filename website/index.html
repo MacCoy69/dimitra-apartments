@@ -118,7 +118,9 @@
     <!-- Hero -->
     <section class="hero" aria-labelledby="hero-heading">
       <div class="hero__media">
-        <img src="img/penthouse-ausblick-01.webp" alt="Sonnenuntergang über dem Meer, Blick von der Terrasse der Dimitra Beach Apartments" width="1600" height="2133" fetchpriority="high">
+        <video autoplay muted loop playsinline poster="img/penthouse-ausblick-01.webp" aria-hidden="true">
+          <source src="video/hero.mp4" type="video/mp4">
+        </video>
       </div>
       <div class="container">
         <div class="hero__inner">
@@ -127,7 +129,7 @@
           <p class="hero__sub reveal d2">Zwei Küsten, ein Gefühl von Ankommen. Stilvolle Apartments in erster Meereslinie – auf der Insel Thassos und am griechischen Festland.</p>
           <div class="hero__cta reveal d3">
             <a href="#auswahl" class="btn btn--primary">Reiseziel wählen</a>
-            <a href="#kontakt" class="btn btn--light">Verfügbarkeit anfragen</a>
+            <a href="#kontakt" class="btn btn--light">Verfügbarkeit &amp; Buchung</a>
           </div>
         </div>
       </div>
@@ -146,39 +148,29 @@
           <p class="lead">Zwei Küsten, ein Versprechen: das Meer direkt vor der Tür. Folgen Sie dem Pinienduft auf die Insel Thassos – oder bleiben Sie am Festland, wo die Wellen die Terrasse streifen.</p>
         </div>
 
-        <div class="choice-grid">
+        <div class="choice-circles">
           <!-- Thassos -->
-          <article class="choice-card reveal">
-            <img src="img/penthouse-terrasse-01.webp" alt="Gedeckter Esstisch auf der Terrasse mit Blick über Skala Potamias und das Meer auf Thassos" loading="lazy" width="1200" height="900">
-            <div class="choice-card__body">
-              <span class="choice-card__tag"><svg width="16" height="16"><use href="#i-pin"/></svg> Insel · Skala Potamias</span>
-              <h3>Thassos<span class="script">die grüne Insel</span></h3>
-              <p>3 Apartments &amp; ein Penthouse, nur 700 m vom Golden Beach. Pinienduft, türkises Wasser und Sonnenuntergänge über der Ägäis.</p>
-              <div class="meta">
-                <span><svg width="16" height="16"><use href="#i-beach"/></svg> 700 m zum Strand</span>
-                <span><svg width="16" height="16"><use href="#i-sea"/></svg> Meerblick</span>
-              </div>
-              <div class="cta-row">
-                <a href="thassos.html" class="btn btn--light choice-card-link">Thassos entdecken</a>
-              </div>
-            </div>
+          <article class="choice-circle reveal">
+            <a href="thassos.html" class="round-media" aria-label="Thassos entdecken">
+              <img src="img/penthouse-terrasse-01.webp" alt="Blick über Skala Potamias und das Meer auf Thassos" loading="lazy">
+            </a>
+            <span class="choice-circle__tag"><svg width="15" height="15"><use href="#i-pin"/></svg> Insel · Skala Potamias</span>
+            <h3>Thassos</h3>
+            <span class="script">die grüne Insel</span>
+            <p>3 Apartments &amp; ein Penthouse, nur 700 m vom Golden Beach. Pinienduft und Sonnenuntergänge über der Ägäis.</p>
+            <a href="thassos.html" class="btn btn--primary">Thassos entdecken</a>
           </article>
 
           <!-- Festland -->
-          <article class="choice-card reveal d1">
-            <img src="img/apartment-terrasse-04.webp" alt="Sonnige Terrasse mit Esstisch und Blick auf die Berge – Ferienwohnung am griechischen Festland" loading="lazy" width="1200" height="900">
-            <div class="choice-card__body">
-              <span class="choice-card__tag"><svg width="16" height="16"><use href="#i-pin"/></svg> Festland · Nea Karvali</span>
-              <h3>Festland<span class="script">erste Meereslinie</span></h3>
-              <p>Gegenüber von Thassos, bei Kavala. Apartments direkt am Wasser – ideal als Etappe oder ruhiger Badeurlaub abseits der Insel.</p>
-              <div class="meta">
-                <span><svg width="16" height="16"><use href="#i-sea"/></svg> Direkt am Meer</span>
-                <span><svg width="16" height="16"><use href="#i-ferry"/></svg> Nähe Fähre</span>
-              </div>
-              <div class="cta-row">
-                <a href="festland.html" class="btn btn--light choice-card-link">Festland entdecken</a>
-              </div>
-            </div>
+          <article class="choice-circle reveal d1">
+            <a href="festland.html" class="round-media" aria-label="Festland entdecken">
+              <img src="img/apartment-terrasse-04.webp" alt="Sonnige Terrasse mit Blick auf die Berge – Ferienwohnung am griechischen Festland" loading="lazy">
+            </a>
+            <span class="choice-circle__tag"><svg width="15" height="15"><use href="#i-pin"/></svg> Festland · Nea Karvali</span>
+            <h3>Festland</h3>
+            <span class="script">erste Meereslinie</span>
+            <p>Gegenüber von Thassos, bei Kavala. Apartments direkt am Wasser – ruhiger Badeurlaub abseits der Insel.</p>
+            <a href="festland.html" class="btn btn--primary">Festland entdecken</a>
           </article>
         </div>
       </div>
@@ -306,48 +298,38 @@
       <div class="container">
         <div class="contact-grid">
           <div class="contact-aside reveal">
-            <span class="eyebrow" style="color:var(--color-primary-light)">Anfrage</span>
-            <h2 id="kontakt-heading" style="margin-top:1rem;">Termin frei? Fragen Sie unverbindlich an.</h2>
-            <p>Sagen Sie uns Reiseziel, Zeitraum und Personenzahl – wir melden uns persönlich mit Verfügbarkeit und Preis.</p>
+            <span class="eyebrow" style="color:var(--color-primary-light)">Buchung &amp; Kontakt</span>
+            <h2 id="kontakt-heading" style="margin-top:1rem;">Verfügbarkeit prüfen &amp; direkt buchen</h2>
+            <p>Aktuelle Verfügbarkeit und Preise sehen Sie live in unserem Buchungstool – dort buchen Sie in wenigen Schritten. Für persönliche Fragen sind wir jederzeit direkt für Sie da.</p>
+            <a href="#" class="btn btn--primary" style="margin:.6rem 0 1.8rem;">Verfügbarkeit &amp; Buchung <svg width="15" height="15"><use href="#i-arrow"/></svg></a>
             <div class="contact-channels">
               <a href="https://wa.me/300000000000" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-whatsapp"/></svg></span><span>WhatsApp<small>Schnellste Antwort</small></span></a>
               <a href="mailto:info@dimitra-apartments.gr"><span class="ic"><svg><use href="#i-mail"/></svg></span><span>info@dimitra-apartments.gr<small>E-Mail</small></span></a>
               <a href="tel:+300000000000"><span class="ic"><svg><use href="#i-phone"/></svg></span><span>+30 000 000 0000<small>Telefon</small></span></a>
             </div>
-            <p style="font-size:.82rem;color:rgba(251,247,240,.55);margin:0 0 .4rem;">Oder direkt buchen über:</p>
-            <div class="book-badges">
-              <a href="https://www.booking.com/" target="_blank" rel="noopener">Booking.com <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
-              <a href="https://www.airbnb.de/" target="_blank" rel="noopener">Airbnb <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
-            </div>
           </div>
 
           <form id="anfrage-form" class="form-card reveal d1" novalidate>
-            <div class="form-success" role="status" aria-live="polite">Vielen Dank! Ihre Anfrage ist eingegangen – wir melden uns in Kürze.</div>
+            <div class="form-success" role="status" aria-live="polite">Vielen Dank! Ihre Nachricht ist eingegangen – wir melden uns in Kürze.</div>
+            <h3 style="font-family:var(--font-display);font-weight:500;font-size:1.5rem;margin-bottom:1.1rem;">Noch eine Frage? Schreiben Sie uns.</h3>
             <div class="form-row">
               <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required></div>
               <div class="field"><label for="email">E-Mail</label><input type="email" id="email" name="email" autocomplete="email" required></div>
             </div>
-            <div class="field"><label for="ziel">Reiseziel</label>
-              <select id="ziel" name="ziel" required>
-                <option value="" selected disabled>Bitte wählen</option>
-                <option>Thassos – Skala Potamias</option>
-                <option>Festland – Nea Karvali</option>
-                <option>Noch unentschieden</option>
-              </select>
-            </div>
             <div class="form-row">
-              <div class="field"><label for="anreise">Anreise</label><input type="date" id="anreise" name="anreise"></div>
-              <div class="field"><label for="abreise">Abreise</label><input type="date" id="abreise" name="abreise"></div>
-            </div>
-            <div class="form-row">
-              <div class="field"><label for="personen">Personen</label>
-                <select id="personen" name="personen"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select>
+              <div class="field"><label for="ziel">Reiseziel (optional)</label>
+                <select id="ziel" name="ziel">
+                  <option value="" selected>Bitte wählen</option>
+                  <option>Thassos – Skala Potamias</option>
+                  <option>Festland – Nea Karvali</option>
+                  <option>Noch unentschieden</option>
+                </select>
               </div>
               <div class="field"><label for="tel">Telefon (optional)</label><input type="tel" id="tel" name="tel" autocomplete="tel"></div>
             </div>
-            <div class="field"><label for="nachricht">Ihre Nachricht</label><textarea id="nachricht" name="nachricht" placeholder="Wünsche, Fragen, Anzahl Kinder …"></textarea></div>
-            <label class="consent"><input type="checkbox" required> Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu.</label>
-            <button type="submit" class="btn btn--primary btn--block">Anfrage senden</button>
+            <div class="field"><label for="nachricht">Ihre Nachricht</label><textarea id="nachricht" name="nachricht" placeholder="Ihre Frage oder Ihr Anliegen …"></textarea></div>
+            <label class="consent"><input type="checkbox" required> Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Nachricht zu.</label>
+            <button type="submit" class="btn btn--primary btn--block">Nachricht senden</button>
           </form>
         </div>
       </div>

@@ -195,7 +195,7 @@ body.nav-open .burger span:nth-child(3){ top:10px; transform:rotate(-45deg); }
 /* ---------- Hero ---------- */
 .hero { position:relative; min-height: 100svh; display:flex; align-items:flex-end; color:#fff; isolation:isolate; }
 .hero__media { position:absolute; inset:0; z-index:-2; }
-.hero__media img { width:100%; height:100%; object-fit:cover; }
+.hero__media img, .hero__media video { width:100%; height:100%; object-fit:cover; }
 .hero::after {
   content:''; position:absolute; inset:0; z-index:-1;
   background: linear-gradient(180deg, rgba(28,40,46,.45) 0%, rgba(28,40,46,.05) 35%, rgba(28,40,46,.55) 100%);
@@ -456,6 +456,18 @@ section { position:relative; }
 .moment .script { font-size:1.45rem; display:block; margin-bottom:.5rem; }
 .moment p { color:var(--color-text-light); font-size:.95rem; max-width:30ch; margin:0 auto; }
 @media (max-width:760px){ .moments-grid{ grid-template-columns:1fr; gap:2.5rem; } .moment .round-media{ max-width:240px; } }
+
+/* Reiseziel-Auswahl als Kreise */
+.choice-circles { display:grid; grid-template-columns:1fr 1fr; gap: clamp(1.5rem,4vw,3.5rem); max-width:920px; margin-inline:auto; }
+.choice-circle { text-align:center; }
+.choice-circle .round-media { display:block; max-width:300px; margin:0 auto 1.4rem; transition: transform .6s var(--ease), box-shadow .6s var(--ease); }
+.choice-circle .round-media:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
+.choice-circle__tag { font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; color:var(--color-primary-dark); display:inline-flex; align-items:center; gap:.4rem; margin-bottom:.5rem; }
+.choice-circle__tag svg { color:var(--color-primary); }
+.choice-circle h3 { font-size:clamp(1.8rem,3.4vw,2.4rem); }
+.choice-circle .script { display:block; font-size:1.5rem; margin:.05rem 0 .7rem; }
+.choice-circle p { color:var(--color-text-light); max-width:34ch; margin:0 auto 1.4rem; }
+@media (max-width:760px){ .choice-circles { grid-template-columns:1fr; gap:2.6rem; } .choice-circle .round-media{ max-width:250px; } }
 
 /* Sanfter Wellen-Übergang zwischen Sektionen */
 .wave-sep { display:block; width:100%; height: clamp(40px,6vw,80px); color: var(--color-bg-alt); margin-bottom:-1px; }
